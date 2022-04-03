@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1867</width>
+    <height>1051</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-20</y>
+      <width>1831</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Wykresy</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QGroupBox" name="groupBox_5">
+       <property name="title">
+        <string>Mały</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QCustomPlot" name="plot6" native="true"/>
+        </item>
+        <item>
+         <widget class="QCustomPlot" name="plot11" native="true"/>
+        </item>
+        <item>
+         <widget class="QCustomPlot" name="plot12" native="true"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QGroupBox" name="groupBox_6">
+       <property name="title">
+        <string>Serdeczny</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QCustomPlot" name="plot9" native="true"/>
+        </item>
+        <item>
+         <widget class="QCustomPlot" name="plot8" native="true"/>
+        </item>
+        <item>
+         <widget class="QCustomPlot" name="plot10" native="true"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QGroupBox" name="groupBox_7">
+       <property name="title">
+        <string>Środkowy</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QCustomPlot" name="plot13" native="true"/>
+        </item>
+        <item>
+         <widget class="QCustomPlot" name="plot16" native="true"/>
+        </item>
+        <item>
+         <widget class="QCustomPlot" name="plot3" native="true"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QGroupBox" name="groupBox_8">
+       <property name="title">
+        <string>Wskazujący</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QCustomPlot" name="plot14" native="true"/>
+        </item>
+        <item>
+         <widget class="QCustomPlot" name="plot15" native="true"/>
+        </item>
+        <item>
+         <widget class="QCustomPlot" name="plot2" native="true"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QGroupBox" name="groupBox_9">
+       <property name="title">
+        <string>Kciuk</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QCustomPlot" name="plot6_2" native="true"/>
+        </item>
+        <item>
+         <widget class="QCustomPlot" name="plot5" native="true"/>
+        </item>
+        <item>
+         <widget class="QCustomPlot" name="plot1" native="true"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>824</y>
+      <width>861</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <layout class="QFormLayout" name="formLayout_2">
+     <item row="0" column="0">
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="title">
+        <string>Pomiar</string>
+       </property>
+       <layout class="QFormLayout" name="formLayout">
+        <item row="0" column="0">
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="text">
+           <string>Zapisz</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton">
+          <property name="text">
+           <string>Rozpocznij</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="text">
+           <string>Zakończ</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string>Połączenia</string>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QPushButton" name="roalacz">
+          <property name="text">
+           <string>Rozłącz</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="polacz">
+          <property name="text">
+           <string>Połącz</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="szukaj">
+          <property name="text">
+           <string>Szukaj</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBoxdevices"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_10">
+    <property name="geometry">
+     <rect>
+      <x>1410</x>
+      <y>770</y>
+      <width>421</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Czujnik dodatkowy</string>
+    </property>
+    <widget class="QCustomPlot" name="plot4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>32</x>
+       <y>30</y>
+       <width>361</width>
+       <height>181</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1867</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
